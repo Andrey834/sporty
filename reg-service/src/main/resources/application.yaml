@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://supero:7777/sporty
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
